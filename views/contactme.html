@@ -1,0 +1,141 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- Latest compiled and minified CSS  Bootstrap 4-->
+    <link rel="stylesheet" href="../css/bootstrap.min.css">
+    <!-- CSS styleSheet-->
+    <link rel="stylesheet" href="../css/style.css">
+    <!-- Google Font Noto Sans-->
+    <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+JP:wght@100;400;900&display=swap" rel="stylesheet"> 
+    <title>Home</title>
+</head>
+<body>
+    <div class="container-fluid">
+        <nav class="navbar navbar-expand-sm bg-dark navbar-dark">
+            <a class="navbar-brand" href="#">
+                <img src="https://image.flaticon.com/icons/svg/2919/2919592.svg" width="30" height="30" class="d-inline-block align-top" alt="" loading="lazy"><b>Lapizote</b>
+            </a>
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav ml-auto bg-dark">
+                    <li class="nav-item">
+                      <a class="nav-link" href="../index.html">Home</a>
+                    </li>
+                    <li class="nav-item">
+                      <a class="nav-link" href="./service.html">Service</a>
+                    </li>
+                    <li class="nav-item">
+                      <a class="nav-link" href="./portfolio.html">Portfolio</a>
+                    </li>
+                    <li class="nav-item active">
+                      <a class="nav-link" href="contactme.html">Contact me</a>
+                    </li>
+                  </ul>
+            </div>
+        </nav>
+
+        <div class="container mb-3">
+            <div class="row">
+                <div class="main__container__big col-lg-12 col-md-12 col-sm-12">
+                    <div class="col-lg-6 col-md-6 col-sm-12">
+                        <h3 class="font-weight-lighter title-1">¿Alguna duda?
+                        <h2 class="h1__title title-2">Envíame un mensaje</h2>
+                        <p class="p__info">Lorem ipsum dolor sit amet consectetur adipisicing elit. Tempora porro aut ab quam eos. </p>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="container mb-3 contact-div">
+            <div class="col-12 d-flex justify-content-center">
+                <form action="/action_page.php" class="was-validated contact-container">
+                    <div class="form-group">
+                      <label for="uname">Nombre:</label>
+                      <input type="text" class="form-control" id="uname" placeholder="Jhon Due" name="uname" required>
+                      <div class="valid-feedback">Valid.</div>
+                      <div class="invalid-feedback">Please fill out this field.</div>
+                    </div>
+                    <div class="mb-3">
+                        <label for="uname">Como te identificas:</label>
+                        <select class="custom-select" required>
+                          <option value="">Choose...</option>
+                          <option value="1">One</option>
+                          <option value="2">Two</option>
+                          <option value="3">Three</option>
+                        </select>
+                        <div class="invalid-feedback">Example invalid custom select feedback</div>
+                    </div>
+                    <div class="form-group">
+                      <label for="pwd">E-mail:</label>
+                      <input type="password" class="form-control" id="pwd" placeholder="jhon-due@email.com" name="pswd" required>
+                      <div class="valid-feedback">Valid.</div>
+                      <div class="invalid-feedback">Please fill out this field.</div>
+                    </div>
+                    <div class="mb-3">
+                        <label for="validationTextarea">Escribe tu mensaje:</label>
+                        <textarea class="form-control is-invalid" id="validationTextarea" placeholder="Hola, tengo una consulta..." required></textarea>
+                        <div class="invalid-feedback">
+                          Please enter a message in the textarea.
+                        </div>
+                      </div>
+                    <div class="form-group form-check">
+                        <label class="form-check-label">
+                          <input class="form-check-input" type="checkbox" name="remember" required>Estoy de acuerdo en recibir respuesta.<div class="valid-feedback">Valid.</div>
+                          <div class="invalid-feedback">Check this checkbox to continue.</div>
+                        </label>
+                    </div>
+                    <button type="submit" class="btn btn-primary">Submit</button>
+                </form> 
+            </div>
+        </div>
+        
+        <footer class="footer__container text-muted text-center mw-100">
+            <a class="navbar-brand" href="#">
+                <img src="https://image.flaticon.com/icons/svg/2919/2919592.svg" width="30" height="30" class="d-inline-block align-top" alt="" loading="lazy"><b>Lapizote</b>
+            </a>
+            <div class="d-flex justify-content-center">
+                <div class="icon iconInstagram p-2">
+                    <img src="https://image.flaticon.com/icons/svg/1384/1384031.svg" width="30" height="30" alt="" loading="lazy">
+                </div>
+                <div class="icon iconLinkedin p-2">
+                    <img src="https://image.flaticon.com/icons/svg/1384/1384030.svg" width="30" height="30" alt="" loading="lazy">
+                </div>
+                <div class="icon iconBehance p-2">
+                    <img src="https://image.flaticon.com/icons/svg/2111/2111325.svg" width="30" height="30" alt="" loading="lazy">
+                </div>
+                <div class="icon iconGithub p-2">
+                    <img src="https://image.flaticon.com/icons/svg/2111/2111432.svg" width="30" height="30" alt="" loading="lazy">
+                </div>
+            </div>
+            <div class="footerNav">
+                <ul class="nav justify-content-center">
+                    <li class="nav-item">
+                        <a class="nav-link" href="/index.html">Home</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="./views/service.html">Service</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="./views/aboutme.html">About me</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="./views/portfolio.html">Portfolio</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="./views/contactme.html">Contact me</a>
+                    </li>
+                </ul>
+            </div>
+        </footer>
+
+    </div>
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
+    <script src="../js/bootstrap.min.js" integrity="sha384-OgVRvuATP1z7JjHLkuOU7Xw704+h835Lr+6QL9UvYjZE3Ipu6Tp75j7Bh/kR0JKI" crossorigin="anonymous"></script>
+</body>
+</body>
+</html>

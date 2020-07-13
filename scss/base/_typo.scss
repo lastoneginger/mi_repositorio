@@ -1,0 +1,25 @@
+$font-size: 16px;
+
+$font-family: 'Noto Sans JP', sans-serif;
+
+.h1__title {
+    font-family: $font-family;
+    font-size: 2em;
+    font-weight: 900;
+}
+.h2__title {
+    font-family: $font-family;
+    font-size: 1.5em;
+    font-weight: 900;
+}
+.p__info {
+    font-family: $font-family;
+    font-size: 0.85em;
+    font-weight: 400;
+}
+.p__subtitle {
+    font-family: $font-family;
+    font-size: 0.85em;
+    font-weight: 100;
+    font-style: italic;
+}

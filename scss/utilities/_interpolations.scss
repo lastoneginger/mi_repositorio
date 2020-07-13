@@ -1,0 +1,28 @@
+/* Titulos Grandes*/
+
+@for $i from 1 to 4 {
+    .title-#{$i} {
+        font-size: 1.5em * $i;
+    }
+}
+
+/* Maps*/
+$artes:(
+    arte1: url("../../img/img2/AmadeuPortada.jpg"),
+    arte2: url("../../img/img2/Astronautachile.jpg"),
+    arte3: url("../../img/img2/cohans1080_Mesa\ de\ trabajo\ 1.png"),
+    arte4: url("../../img/img2/DiaMedioAmbiente.jpg"),
+    arte5: url("../../img/img2/Drpet001.jpg"),
+    arte6: url("../../img/img2/Drpet002.jpg"),
+    arte7: url("../../img/img2/Ferrari-slider-001.png"),
+    arte8: url("../../img/img2/trabajo1.png"),
+);
+@each $art, $img in $artes {
+    .back-#{$art} {
+        background-image: $img;
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-position: center;
+    }
+}
+

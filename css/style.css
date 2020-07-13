@@ -1,0 +1,289 @@
+.h1__title {
+  font-family: "Noto Sans JP", sans-serif;
+  font-size: 2em;
+  font-weight: 900; }
+
+.h2__title {
+  font-family: "Noto Sans JP", sans-serif;
+  font-size: 1.5em;
+  font-weight: 900; }
+
+.p__info {
+  font-family: "Noto Sans JP", sans-serif;
+  font-size: 0.85em;
+  font-weight: 400; }
+
+.p__subtitle {
+  font-family: "Noto Sans JP", sans-serif;
+  font-size: 0.85em;
+  font-weight: 100;
+  font-style: italic; }
+
+/* Mixins*/
+.main__container__big {
+  width: 100%;
+  height: 24em;
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  padding: 1em;
+  color: #eeeeee;
+  border: 4px solid;
+  border-image: linear-gradient(to bottom, #006699, #303841) 1; }
+
+.main__container {
+  width: 100%;
+  height: 18em;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  padding: 1em;
+  color: #eeeeee; }
+
+.main-container-img {
+  width: 350px;
+  height: 350px;
+  position: absolute;
+  top: 20px;
+  right: 20px;
+  z-index: -1;
+  background-image: url(../../img/img2/CorazonPin01.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center; }
+
+.mainIndexImg {
+  width: 100%;
+  height: 18em;
+  background-image: url(../../img/PaisajeSantiagoDeChile001.png);
+  background-size: cover;
+  background-position: center;
+  border-radius: 0.5em; }
+
+.mainServiceImg {
+  width: 100%;
+  height: 24em;
+  background-image: url(../../img/fondoService1140x288.png);
+  background-size: cover;
+  background-position: center; }
+
+.service__container {
+  width: 100%;
+  height: 18em;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 1em;
+  color: #eeeeee;
+  background-image: url(../../img/fondoService1140x288.png);
+  background-size: cover;
+  background-position: center;
+  border-radius: 0.5em; }
+
+.sectionInfo {
+  width: 100%;
+  text-align: left;
+  border-radius: 0.5em; }
+
+.sectionInfo-2 {
+  width: 50%;
+  text-align: left;
+  border-radius: 0.5em; }
+
+@media only screen and (max-width: 576px) {
+  .sectionInfo-2 {
+    width: 100%; } }
+
+.slider-container {
+  position: relative; }
+  .slider-container .slider-info {
+    width: 250px;
+    height: 200px;
+    position: absolute;
+    top: 200px;
+    left: 150px;
+    padding: 1em;
+    color: #eeeeee; }
+
+/* Portfolio  bucle works */
+.portfolio-div {
+  width: 100%;
+  height: auto; }
+
+.portfolio-1 {
+  width: 100%;
+  height: 50vh; }
+
+.portfolio-2 {
+  width: 100%;
+  height: 50vh; }
+
+@media only screen and (max-width: 576px) {
+  .portfolio-2 {
+    width: 25wh;
+    height: 40vh; } }
+
+/* Contact me Form */
+.contact-div {
+  padding: 1em;
+  border: 4px solid;
+  border-image: linear-gradient(to top, #006699, #303841) 1; }
+
+.contact-container {
+  width: 50%;
+  height: auto;
+  color: #eeeeee; }
+
+@media only screen and (max-width: 576px) {
+  .contact-container {
+    width: 100%; } }
+
+.header {
+  height: 4em;
+  background-color: #303841; }
+  .header a {
+    color: #eeeeee; }
+
+.footer__container {
+  height: 250px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-color: rgba(0, 0, 0, 0.2); }
+
+.icons {
+  width: 30px;
+  height: 30px;
+  margin-right: 0.5em; }
+
+.Ps {
+  background-image: url("https://image.flaticon.com/icons/svg/552/552220.svg"); }
+
+.Ai {
+  width: 30px;
+  height: 30px;
+  background-image: url("https://image.flaticon.com/icons/svg/552/552222.svg"); }
+
+.Id {
+  width: 30px;
+  height: 30px;
+  background-image: url("https://image.flaticon.com/icons/svg/552/552223.svg"); }
+
+.Vs {
+  width: 30px;
+  height: 30px;
+  background-image: url("https://image.flaticon.com/icons/svg/906/906324.svg"); }
+
+.Html {
+  width: 30px;
+  height: 30px;
+  background-image: url("https://image.flaticon.com/icons/svg/226/226269.svg"); }
+
+.Css {
+  width: 30px;
+  height: 30px;
+  background-image: url("https://image.flaticon.com/icons/svg/732/732190.svg"); }
+
+.block__article {
+  width: 100%;
+  height: 500px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  padding: 0.85em;
+  color: #eeeeee;
+  border-radius: 0.5em;
+  border: 4px solid;
+  border-image: linear-gradient(to bottom, #ff5722, #303841) 1; }
+  .block__article .articleImg {
+    width: 100%;
+    height: 350px;
+    margin-bottom: 1em;
+    background-image: url("https://images.pexels.com/photos/2047905/pexels-photo-2047905.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940");
+    background-size: cover;
+    background-position: center; }
+  .block__article .articleExtra {
+    display: flex;
+    flex-direction: column; }
+  .block__article .articleIcons {
+    display: flex; }
+
+.block__article:hover {
+  box-shadow: 10px 20px 30px rgba(0, 0, 0, 0.2); }
+
+.areaImg {
+  display: flex;
+  flex-wrap: wrap; }
+
+/* Titulos Grandes*/
+.title-1 {
+  font-size: 1.5em; }
+
+.title-2 {
+  font-size: 3em; }
+
+.title-3 {
+  font-size: 4.5em; }
+
+/* Maps*/
+.back-arte1 {
+  background-image: url("../../img/img2/AmadeuPortada.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center; }
+
+.back-arte2 {
+  background-image: url("../../img/img2/Astronautachile.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center; }
+
+.back-arte3 {
+  background-image: url("../../img/img2/cohans1080_Mesa de trabajo 1.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center; }
+
+.back-arte4 {
+  background-image: url("../../img/img2/DiaMedioAmbiente.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center; }
+
+.back-arte5 {
+  background-image: url("../../img/img2/Drpet001.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center; }
+
+.back-arte6 {
+  background-image: url("../../img/img2/Drpet002.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center; }
+
+.back-arte7 {
+  background-image: url("../../img/img2/Ferrari-slider-001.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center; }
+
+.back-arte8 {
+  background-image: url("../../img/img2/trabajo1.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center; }
+
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box; }
+
+body {
+  background-color: #303841;
+  font-size: 16px; }
+
+.margin-none {
+  padding: 0; }
